@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+html {
+	scroll-behavior: smooth;
+  }
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #00b09b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.bg-white {
+	background-color: #fff;
+}
+.text-white {
+	color: white;
+}
+.jumbotron {
+	margin-bottom: 0 !important;
+}
+.title {
+	
+	font-family: 'Dancing Script', cursive !important;
+	font-size: 36px;
+}
+.bg-white {
+	background-color: white;
+}
+.bg-transparent {
+	background-color: transparent;
+}
+.bg-gradient {
+	background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.logo {
+	width: 110px;
+	height: 70px;
+}
+.carousel-img{
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+}
+
+
+.card-borderless {
+	border: 0px;
+  }
+  .card-image {
+	margin-top: 20px;
+	font-size: 80px;
+  }
+
+  .banner {
+	  height: 450px;
+	  width: 800px;
+  }
+  .nav-link {
+	  color: #ecf0f1 !important;
+  }
+  .nav-link:hover {
+	color: white !important;
+}
+.container-fluid {
+	margin-bottom: 100px !important;
+}
+.designer {
+	text-decoration: none;
+	color: white;
+}
+.designer:hover {
+	color: white !important;
+}
+.footer-muted {
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+.borderless {
+	border: none !important;
+	border-radius: 0px !important;
+}
+.card-img-top {
+	border-radius: 0px !important;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white !important;
+    padding: 0; 
+}
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 575px) {
+	.carousel-img{
+		width: 100%;
+		height: 450px;
+		object-fit: cover;
+	}
+	.d-icon {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+}
